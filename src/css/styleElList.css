@@ -1,0 +1,52 @@
+.element_list{
+    display: flex; 
+    align-items: center;   
+    width: 400px;
+    height:45px; 
+    border: 2px green solid;
+    border-radius: 5px;
+    background-color: #faebd7;
+    margin-bottom: 2px;
+}
+
+.element_list__content{
+    padding-left: 5px;   
+    width: 85%;   
+   
+
+}
+.element_list__btns{  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%; 
+    height: 100%;
+     
+   
+    
+}
+
+.element_list__btn_reduct, .element_list__btn_del {
+    width:48%;
+    height:60%;
+    border-radius: 50%;
+    border: 1px antiquewhite solid ; 
+    
+}
+
+.element_list__btn_reduct{
+ background-color: rgb(255, 253, 253);
+ background-position: center center;
+ background-image: url('../image/elementList/png-clipar.png');
+ background-size:cover;
+ background-repeat: no-repeat;
+}
+
+.element_list__btn_del{
+    background-color: antiquewhite;
+    background-position: center center;
+    background-image: url('../image/elementList/remove.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}

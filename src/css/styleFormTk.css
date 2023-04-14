@@ -1,0 +1,62 @@
+.btn_add_Tk{
+    background-color: rgba(238, 201, 38, 0.993);
+}
+.form_add_ticket{
+    position: absolute;
+    
+    top:20%;
+    left: 30%;
+    text-align: center;
+    width:450px;
+    border: 2px green solid;
+    border-radius: 5px;
+    background-color: #faebd7;
+    
+    margin: auto ;
+}
+.form_add_ticket_data{
+    width: 90%;    
+    margin: auto;
+    
+}
+.ticketfull{
+    display: block;    
+    text-align: justify;
+    
+
+}
+.ticketfull__data{
+    width: 98%;
+    background-color: #f9faf0;
+    border: 1px;
+    border-radius: 5px;
+    min-height: 25px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+
+    
+    
+}
+.title_input{
+    display: block;
+    margin-bottom: 2px;
+    
+    }
+.form_add_ticket_btns{
+    width: 98%;
+    text-align: end;
+    margin-bottom: 5px;
+    
+}
+.form_add_ticket__btn{
+    height: 60px;
+    height: 30px;
+    border: 1px;
+    border-radius: 10px;
+}
+.form_add_ticket__btn:hover{
+    box-shadow: inset 2px 5px 5px 0px rgba(0,0,0,0.5);
+    background-color: #f7e27d;
+    color: black;
+  }
